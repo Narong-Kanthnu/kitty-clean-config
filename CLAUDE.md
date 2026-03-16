@@ -13,7 +13,7 @@ A clean, modular kitty terminal configuration aimed at vim users on macOS. The c
 bash install.sh
 ```
 
-The install script creates a symlink from the repo directory to `~/.config/kitty`. Kitty must be restarted after installation.
+The install script creates a symlink from the repo directory to `~/.config/kitty`. If an existing config is found, it prompts for confirmation before removing it. Kitty must be restarted after installation.
 
 ## Architecture
 
